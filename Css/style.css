@@ -1,0 +1,40 @@
+body {
+	background-color: #191c38;
+
+	margin: 0;
+	padding: 0;
+}
+ul {
+	list-style: none;
+	display: flex;
+	padding: 0;
+}
+
+.cell-list > .cell,
+.cell-even,
+.cell-odd {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.cell {
+	height: 100px;
+	width: 100px;
+	border: 1px solid white;
+	color: white;
+}
+
+.cell-even {
+	height: 100px;
+	width: 100px;
+	border: 1px solid white;
+	color: white;
+	background-color: aqua;
+}
+.cell-odd {
+	height: 100px;
+	width: 100px;
+	border: 1px solid white;
+	color: white;
+	background-color: red;
+}
