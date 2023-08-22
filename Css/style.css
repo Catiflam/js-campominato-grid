@@ -14,9 +14,12 @@ ul {
 .cell-list > .cell,
 .cell-even,
 .cell-odd {
+	width: calc(100% / 10);
+	aspect-ratio: 1;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	cursor: pointer;
 }
 .cell {
 	height: 100px;
